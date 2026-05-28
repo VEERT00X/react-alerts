@@ -1,0 +1,36 @@
+{
+  "name": "@veert00x/react-alerts",
+  "description": "Reactive UI Alerts and Confirmation Prompts (CSR)",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VEERT00X/react-alerts.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "@veert00x",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VEERT00X/react-alerts/issues"
+  },
+  "homepage": "https://github.com/VEERT00X/react-alerts#readme",
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "tsup": "^8.5.1",
+    "typescript": "^5.5.4"
+  }
+}
